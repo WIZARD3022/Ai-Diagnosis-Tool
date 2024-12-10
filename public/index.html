@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Diagnosis</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="diagnosis-options">
+            <h2>Select Diagnosis Type</h2>
+            <div class="option">
+                <input type="radio" id="xray" name="diagnosis" value="xray">
+                <label for="xray">X-Ray</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="ctscan" name="diagnosis" value="ctscan">
+                <label for="ctscan">CT-Scan</label>
+            </div>
+            <div class="option">
+                <input type="radio" id="mri" name="diagnosis" value="mri">
+                <label for="mri">MRI</label>
+            </div>
+        </section>
+
+        <section class="upload-section">
+            <h2>Upload Your Image</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <input type="file" name="imageUpload" id="imageUpload" accept="image/*">
+                <button class="delete-button" id="deleteButton">Delete</button>
+                <button type="button" id="diagnoseButton">Start AI Diagnosis</button>
+            </form>
+        </section>
+        <div id="imagePreview"></div>
+        <div id="predictionResult"></div>
+        <div class="diagnosis-result" id="diagnosisResult">
+            AI Diagnosis Result: <strong id="resultText"></strong>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AI Diagnosis. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
