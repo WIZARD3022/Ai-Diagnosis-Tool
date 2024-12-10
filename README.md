@@ -17,7 +17,13 @@ This repository contains an AI model for diagnosing bone fractures from X-ray im
 - X-ray images of bones classified into `fractured` and `healthy` categories.
 - Ensure the dataset is organized as follows:
 ```
-dataset/ train/ fractured/ healthy/ test/ fractured/ healthy/
+dataset/
+├──train/
+├────────fractured/
+├────────healthy/
+├──test/
+├────────fractured/
+├────────healthy/
 ```
 
 ---
