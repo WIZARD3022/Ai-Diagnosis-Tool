@@ -25,6 +25,11 @@ dataset/
 ├────────fractured/
 ├────────healthy/
 ```
+# Dataset Download
+if want to use mine mode then
+You can download the dataset using the link below:
+
+[Download Dataset](https://mega.nz/folder/tyVWFYSa#PmMt55pnUPykRyDIGy7iag)
 
 ---
 
@@ -54,6 +59,12 @@ cd bone-fracture-diagnosis
 ```
 python train_model.py
 ```
+
+# Model Download
+if want to use mine mode then
+You can download the Model using the link below:
+[Download Model](https://mega.nz/folder/tyVWFYSa#PmMt55pnUPykRyDIGy7iag)
+
 3. The training script includes:
 - Data augmentation
 - Transfer learning options
