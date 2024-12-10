@@ -29,7 +29,7 @@ dataset/
 if want to use mine mode then
 You can download the dataset using the link below:
 
-[Download Dataset](https://mega.nz/folder/tyVWFYSa#PmMt55pnUPykRyDIGy7iag)
+[Download Dataset]([https://mega.nz/folder/tyVWFYSa#PmMt55pnUPykRyDIGy7iag](https://1024terabox.com/s/1eSkl5GzsHKEjchzRPbwMhQ))
 
 ---
 
