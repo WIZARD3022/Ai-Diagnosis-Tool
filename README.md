@@ -28,7 +28,6 @@ dataset/
 # Dataset Download
 if want to use mine mode then
 You can download the dataset using the link below:
-
 [Download Dataset](https://1024terabox.com/s/1eSkl5GzsHKEjchzRPbwMhQ)
 
 ---
