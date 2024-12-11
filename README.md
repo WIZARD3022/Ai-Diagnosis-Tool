@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ## Training the Model
 1. Clone the repository:
 ```
-git clone https://github.com/yourusername/bone-fracture-diagnosis.git
+git clone https://github.com/WIZARD3022/Ai-Diagnosis-Tool.git
 cd bone-fracture-diagnosis
 ```
 2. Train the model:
