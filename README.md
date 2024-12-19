@@ -34,7 +34,8 @@ You can download the dataset using the link below:
 
 ## Requirements
 Install the python from it official site [Download Python](https://www.python.org/downloads/)
-Note: Ensure to install the python version between 3.8 to 3.10
+
+**Note:** Ensure to install the python version between 3.8 to 3.10
 
 Install dependencies using:
 ```
